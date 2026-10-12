@@ -1,20 +1,20 @@
 #include <stdio.h>
     
-int main(){
-	 int a,b,c;
-	 scanf("%d",&a);
-	 scanf("%d",&b);
-	 scanf("%d",&c);
-	 int max = -999999;
-	 if(a > max){
-	 	max = a;
-	 }
-	 else if(b > max){
-	 	max = b;
-	 }
-	 else if (c > max){
-	 	max = c;
-	 }
-	 printf("%d",max);
-	
+    int main(){
+    	 int a,b,c;
+    	 int max;
+    	 scanf("%d",&a);
+    	 scanf("%d",&b);
+    	 scanf("%d",&c);
+    	 if(a < b){
+    	 	max = b;
+		 }
+		 else if(b < c){
+		 	max = c;
+		 }
+		 else {
+		 	max = a;
+		 }
+		 printf("%d",max);
+    	
 	}
