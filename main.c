@@ -2,18 +2,18 @@
     
     int main(){
     	 int a,b,c;
-    	 int max = a;
     	 scanf("%d",&a);
     	 scanf("%d",&b);
     	 scanf("%d",&c);
-    	 if(b > max){
-    	 	max = b;
+    	 int max = a;
+    	 if(a > max){
+    	 	max = a;
 		 }
-		 else if(c > max){
-		 	max = c;
+		 else if(b > max){
+		 	max = b;
 		 }
 		 else {
-		 	max = a;
+		 	max = c;
 		 }
 		 printf("%d",max);
     	
