@@ -4,15 +4,15 @@
   	 scanf("%d",&t);
   	 
   	 if( t < 15){
-  	 	printf("LANH \n");
+  	 	printf("LANH");
 	   }
   	else if( t >= 15 && t < 25){
-  		printf("MAT \n");
+  		printf("MAT");
 	  }
   	else if( t >= 25 && t < 35){
-  		printf("NONG \n");
+  		printf("NONG");
 	  }
   	else if(t >= 35){
-  		printf("RAT_NONG \n");
+  		printf("RAT_NONG");
 	  }
   }
