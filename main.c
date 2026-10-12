@@ -2,7 +2,7 @@
     
     int main(){
     	 int a,b,c;
-    	 int max;
+    	 int max = a;
     	 scanf("%d",&a);
     	 scanf("%d",&b);
     	 scanf("%d",&c);
