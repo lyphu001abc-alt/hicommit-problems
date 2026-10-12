@@ -6,10 +6,10 @@
     	 scanf("%d",&a);
     	 scanf("%d",&b);
     	 scanf("%d",&c);
-    	 if(a < b && b > c){
+    	 if(b > max){
     	 	max = b;
 		 }
-		 else if(b < c && c > a){
+		 else if(c > max){
 		 	max = c;
 		 }
 		 else {
