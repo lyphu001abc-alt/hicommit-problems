@@ -6,15 +6,16 @@
     	 scanf("%d",&b);
     	 scanf("%d",&c);
     	 int max = a;
-    	 if(a < b){
+    	 if(max < b){
     	 	max = b;
 		 }
-		 else if(b < c){
+		 else if(max < c){
 		 	max = c;
 		 }
 		 else {
 		 	max = a;
 		 }
 		 printf("%d",max);
+		 return 0;
     	
 	}
