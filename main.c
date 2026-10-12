@@ -9,7 +9,7 @@
     	 if(max < b){
     	 	max = b;
 		 }
-		 else if(max < c){
+		 if(max < c){
 		 	max = c;
 		 }
 		 printf("%d",max);
