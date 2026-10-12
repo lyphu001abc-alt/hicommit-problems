@@ -12,9 +12,6 @@
 		 else if(max < c){
 		 	max = c;
 		 }
-		 else {
-		 	max = a;
-		 }
 		 printf("%d",max);
 		 return 0;
     	
