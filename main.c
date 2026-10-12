@@ -12,7 +12,7 @@
 		 else if(b > max){
 		 	max = b;
 		 }
-		 else {
+		 else if (c > max){
 		 	max = c;
 		 }
 		 printf("%d",max);
