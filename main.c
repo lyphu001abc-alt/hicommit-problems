@@ -2,10 +2,10 @@
     
     int main(){
     	 int a,b,c;
-    	 int max;
     	 scanf("%d",&a);
     	 scanf("%d",&b);
     	 scanf("%d",&c);
+    	 int max = a;
     	 if(a < b){
     	 	max = b;
 		 }
