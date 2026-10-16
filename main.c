@@ -3,7 +3,7 @@
 int main() {
    int distance;
    long order_value;
-    if (scanf("%d %lld", &distance , &order_value) !=2){
+    if (scanf("%d %lld", &distance , &order_value) ){
       return 0;    
     }
     if ( distance <= 0 || order_value <= 0){
