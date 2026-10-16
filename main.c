@@ -5,7 +5,7 @@ int main() {
    int order_value;
     scanf("%d %d", &distance , &order_value);
     
-    if ( distance <= 0 || order_value <= 0){
+    if ( distance <= 0 || order_value < 0){
        printf("INVALID\n");
   }
     else if( order_value >= 500000 && distance < 15){
