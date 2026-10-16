@@ -2,10 +2,9 @@
 
 int main() {
    int distance;
-   long order_value;
-    if (scanf("%d %lld", &distance , &order_value) ){
-      return 0;    
-    }
+   int order_value;
+    scanf("%d %d", &distance , &order_value);
+    
     if ( distance <= 0 || order_value <= 0){
        printf("INVALID\n");
   }
@@ -21,5 +20,5 @@ int main() {
     else if(distance > 15){
       printf("40000\n");
     }
-
+   return 0;
   }
