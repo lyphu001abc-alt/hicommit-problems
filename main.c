@@ -13,7 +13,7 @@
   {
     if(drl >= 90)
     {
-      printf("HOC_BONG-XUAT-SAC");
+      printf("HOC_BONG_XUAT_SAC");
     }
     else if(drl >= 80)
     {
@@ -39,10 +39,7 @@
   {
     printf("HOC_BONG_KHA");
   }
-  else
-  {
-    printf("KHONG_DAT");
-  }
+  
   return 0;
 }
  
