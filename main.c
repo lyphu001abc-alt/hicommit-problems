@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 int main() {
-  int kd;
+  foalt kd;
   int dc;
+  scanf("%f",&kd);
   if(kd < 4.0)
   {
     printf("F");
