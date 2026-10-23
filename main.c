@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  foalt kd;
+  float kd;
   int dc;
   scanf("%f",&kd);
   if(kd < 4.0)
