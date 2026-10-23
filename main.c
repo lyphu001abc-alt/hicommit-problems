@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  int khoangdiem,int diemchu;
-  khoangdiem = kd;
-  diemchu = dc;
+  int kd,int dc;
   if(kd < 4.0)
   {
     printf("F");
