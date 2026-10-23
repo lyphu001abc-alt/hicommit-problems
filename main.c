@@ -24,9 +24,9 @@
       printf("HOC_BONG_KHA");
     }
   }
-  else if(dtb >= 8.0)
+  else if(dtb >= 8.0 && drl < 90)
   {
-    if(drl >= 80)
+    if(drl >= 80 || drl > 90)
     {
       printf("HOC_BONG_GIOI");
     }
@@ -35,7 +35,9 @@
       printf("HOC_BONG_KHA");
     }
   }
-  else if(dtb > 7.0)
+  else if(dtb > 7.0 && drl < 80)
+  {
+      if(drl > 70)
   {
     printf("HOC_BONG_KHA");
   }
