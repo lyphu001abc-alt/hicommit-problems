@@ -8,7 +8,7 @@ int main() {
   {
     printf("F");
   }
-  else if((kd >= 4.0) && (kd < 5)))
+  else if((kd >= 4.0) && (kd < 5))
   {
     printf("D");
   }
