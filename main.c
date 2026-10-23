@@ -3,7 +3,7 @@
 int main() {
   float kd;
   int dc;
-  scanf("%f",&kd);
+  scanf("%2f",&kd);
   if(kd < 4.0)
   {
     printf("F");
