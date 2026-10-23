@@ -1,11 +1,28 @@
-// HICOMMIT TEMPLATE FOR C
 #include <stdio.h>
 
 int main() {
-    
-    /*
-        Your code goes here. Happy coding!
-    */
-
-    return 0;
+  float w;
+  int h;
+  float BMI;
+  scanf("%2f",&w);
+  scanf("%d",&h);
+  BMI = w/(h/100)^2;
+  if(BMI <= 18.5)
+  {
+    printf("UNDERWEIGHT");
+  }
+  else if("BMI > 18.5 && BMI <= 25")
+  {
+    printf("NORMAL");
+  }
+ else if("BMI > 25 && BMI <= 30")
+  {
+    printf("OVERWEIGHT");
+  }
+ else if("BMI > 30")
+  {
+    printf("OBESE");
+  }
+ 
+  return 0;
 }
