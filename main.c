@@ -3,7 +3,7 @@
 int main() {
   float w;
   float h;
-  int BMI;
+  float BMI;
   scanf("%f",&w);
   scanf("%f",&h);
   BMI = w/(h/100) * w/(h/100);
