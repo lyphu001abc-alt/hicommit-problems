@@ -8,27 +8,27 @@ int main() {
   {
     printf("F");
   }
-  else if(kd <= 4.9)
+  else if(kd <= 4.5)
   {
     printf("D");
   }
-  else if(kd <= 5.4)
+  else if(kd <= 5.5)
   {
     printf("D+");
   }
-   else if(kd <= 6.4999)
+   else if(kd <= 6.5)
   {
     printf("C");
   }
-   else if(kd <= 6.9)
+   else if(kd <= 7)
   {
     printf("C+");
   }
-   else if(kd <= 7.9)
+   else if(kd <= 8)
   {
     printf("B");
   }
-   else if(kd <= 8.9)
+   else if(kd <= 9)
   {
     printf("B+");
   }
