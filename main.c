@@ -12,7 +12,7 @@ int main() {
   {
     printf("D");
   }
-  else if(kd >= 5.0 && kd < 5.4)
+  else if(kd >= 5.0 && kd <= 5.4)
   {
     printf("D+");
   }
