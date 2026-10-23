@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
   int xeploai;
   switch(xeploai)
@@ -12,8 +11,7 @@ int main() {
          printf("XEP_LOAI_KHA"); break;
     case 4:
          printf("XEP_LOAI_TRUNG_BINH"); break;
-  
-  default:
+    default:
         printf("KHONG_HOP_LE");
   }
   return 0;
