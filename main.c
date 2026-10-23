@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-  int kd,int dc;
+  int kd;
+  int dc;
   if(kd < 4.0)
   {
     printf("F");
