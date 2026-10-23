@@ -12,7 +12,7 @@ int main() {
         tien = 50LL * 1678
              + (long long)(k - 50) * 1734;
     }
-    else if (k < 200) {
+    else if (k <= 200) {
         tien = 50LL * 1678
              + 50LL * 1734
              + (long long)(k - 100) * 2014;
@@ -23,7 +23,7 @@ int main() {
              + 100LL * 2014
              + (long long)(k - 200) * 2536;
     }
-    else if (k < 400) {
+    else if (k <= 400) {
         tien = 50LL * 1678
              + 50LL * 1734
              + 100LL * 2014
