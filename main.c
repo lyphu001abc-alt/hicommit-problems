@@ -20,7 +20,7 @@ int main() {
   {
     printf("C");
   }
-   else if((kd >= 6.50) && (kd < 6.99))
+   else if((kd >= 6.50) && (kd < 6.90))
   {
     printf("C+");
   }
