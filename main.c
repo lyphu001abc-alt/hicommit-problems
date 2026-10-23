@@ -20,7 +20,7 @@ int main() {
   {
     printf("C");
   }
-   else if(kd < 7))
+   else if(kd < 7)
   {
     printf("C+");
   }
