@@ -39,7 +39,7 @@
   {
     printf("HOC_BONG_KHA");
   }
-  else if
+  else
   {
     printf("KHONG_DAT");
   }
