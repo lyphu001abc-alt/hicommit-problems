@@ -11,11 +11,11 @@ int main() {
   {
     printf("UNDERWEIGHT");
   }
-  else if((BMI >= 18.5) && (BMI < 25.0f))
+  else if((BMI >= 18.5) && (BMI < 24.9999f))
   {
     printf("NORMAL");
   }
- else if((BMI >= 25.0f) && (BMI < 30.0f))
+ else if((BMI >= 25.0f) && (BMI < 29.9999f))
   {
     printf("OVERWEIGHT");
   }
