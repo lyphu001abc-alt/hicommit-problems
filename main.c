@@ -16,7 +16,7 @@ int main() {
   {
     printf("D+");
   }
-   else if(kd <= 6.4)
+   else if(kd <= 6.4999)
   {
     printf("C");
   }
