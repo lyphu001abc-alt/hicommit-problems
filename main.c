@@ -2,10 +2,10 @@
 
 int main() {
   float w;
-  int h;
+  float h;
   float BMI;
   scanf("%2f",&w);
-  scanf("%d",&h);
+  scanf("%2f",&h);
   BMI = w/(h/100)^2;
   if(BMI <= 18.5)
   {
