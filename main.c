@@ -15,7 +15,7 @@ int main() {
       {
        printf("VALID");
       }
-      else if(2)
+      else if(m==2)
       {
         if((y %400 == 0 && y > 0 || y %400 != 0 && y > 0)&& d>=1&&d<=29 )
         {
