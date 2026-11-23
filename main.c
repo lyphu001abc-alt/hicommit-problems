@@ -14,7 +14,7 @@ int main() {
   }
   else if(y / 400 == 0 && y > 0|| y / 4 == 0 && y / 100 != 0 && y > 0)
   {
-    scanf("%d",&y)
+    scanf("%d",&y);
   }
     printf("VALID");
   
