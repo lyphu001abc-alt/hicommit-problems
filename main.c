@@ -4,7 +4,7 @@ int main() {
   double d;
   int tien;
   int dongia;
-    printf(" ");
+    printf("");
     scanf("%lf",&d);
   if(d <= 1)
   {
