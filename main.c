@@ -4,9 +4,7 @@ int main() {
   int m;
   int d;
   int y;
-  scanf("%d",&d);
-  scanf("%d",&m);
-  scanf("%d",&y);
+  scanf("%d %d %d",&d, &m ,&y);
     if(1 <= m && m <= 12)
     {
       if(1, 3, 5, 7, 8, 10, 12)
@@ -23,14 +21,14 @@ int main() {
         {
           29;
         }
-        else if 
+        else
         {
           28;
         }
       }
        printf("VALID");
     }
-    else if
+    else
     {
      printf("INVALID"); 
     }
