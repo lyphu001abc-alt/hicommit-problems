@@ -26,7 +26,6 @@ int main() {
            printf("INVALID");
         }
       }
-       printf("VALID");
     }
     else
     {
