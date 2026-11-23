@@ -4,7 +4,9 @@ int main() {
   int abs;
   float gpa;
   float min;
-  scanf("%f %f %d",&gpa &min &abs);
+  scanf("%f",&gpa);
+  scanf("%f",&min);
+  scanf("%d",&abs);
   if(gpa >= 8.0 && min >= 7.0)
   {
     printf("EXCELLENT");
