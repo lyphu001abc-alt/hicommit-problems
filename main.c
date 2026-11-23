@@ -27,9 +27,9 @@ int main() {
         {
           printf("VALID"); 
         }
-        else
+        else(d>1 && d<=28)
         {
-           printf("INVALID");
+           printf("VALID");
         }
       }
     }
