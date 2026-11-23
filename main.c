@@ -4,7 +4,7 @@ int main() {
   double d;
   int tien;
   int dongia;
-    printf("Nhap so km: ");
+    printf(" ");
     scanf("%lf",&d);
   if(d <= 1)
   {
