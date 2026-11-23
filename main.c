@@ -26,7 +26,7 @@ int main() {
         {
           printf("VALID"); 
         }
-        else
+      else
         {
            printf("INVALID");
         }
@@ -40,17 +40,16 @@ int main() {
       }
       else if((m==4||m==6||m==9||m==11)&& d>=1&&d<=30)
       {
-       printf("VALID");
+        printf("VALID");
       }
       else if(m==2&& d>=1&&d<=28)
       {
-        {
-          printf("VALID"); 
-        }
-        else
-        {
-           printf("INVALID");
-        }
+        
+        printf("VALID"); 
+      }
+      else
+      {
+        printf("INVALID");
       }
     }
    
