@@ -12,11 +12,11 @@ int main() {
     {
        if(abs > 3)
   {
-    printf("FAIL_ATTENDANCE");
+    printf("FAIL_ATTENDANCE"); break ;
   }
   else if(min < 4.0)
   {
-    printf("FAIL_SUBJECT");
+    printf("FAIL_SUBJECT"); break ;
   }
     }
     printf("EXCELLENT");
@@ -26,11 +26,11 @@ int main() {
     {
        if(abs > 3)
   {
-    printf("FAIL_ATTENDANCE");
+    printf("FAIL_ATTENDANCE"); break ;
   }
   else if(min < 4.0)
   {
-    printf("FAIL_SUBJECT");
+    printf("FAIL_SUBJECT"); break ;
   }
     }
     printf("GOOD");
@@ -44,11 +44,11 @@ int main() {
     {
        if(abs > 3)
   {
-    printf("FAIL_ATTENDANCE");
+    printf("FAIL_ATTENDANCE"); break ;
   }
   else if(min < 4.0)
   {
-    printf("FAIL_SUBJECT");
+    printf("FAIL_SUBJECT"); break ;
   }
     }
     printf("FAIL");
