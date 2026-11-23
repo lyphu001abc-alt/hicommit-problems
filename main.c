@@ -4,32 +4,37 @@ int main() {
   int m;
   int d;
   int y;
-  if(1 <= m && m <= 12)
-  {
-    scanf("%d",&m);
-  }
-  else if(1 <= d && d <= m && d <= m)
-  {
-    scanf("%d",&d);
-  }
-  else if(y / 400 == 0 && y > 0)
-  {
-    scanf("%d",&y);
-  }
-    printf("VALID");
-
-  if(1 <= m && m >= 12)
-  {
-    scanf("%d",&m);
-  }
-  else if(1 <= d && d >= m && d <= y)
-  {
-    scanf("%d",&d);
-  }
-  else if(y / 400 == 0 && y > 0)
-  {
-    scanf("%d",&y);
-  }
-  printf("INVALID");
+  scanf("%d",&d);
+  scanf("%d",&m);
+  scanf("%d",&y);
+    if(1 <= m && m <= 12)
+    {
+      if(1, 3, 5, 7, 8, 10, 12)
+      {
+        31;
+      }
+      else if(4, 6, 9, 11)
+      {
+        30;
+      }
+      else if(2)
+      {
+        if(y %400 == 0 && y > 0 || y %400 != 0 && y > 0)
+        {
+          29;
+        }
+        else if 
+        {
+          28;
+        }
+      }
+       printf("VALID");
+    }
+    else if
+    {
+     printf("INVALID"); 
+    }
+   
+ 
   return 0;
 }
