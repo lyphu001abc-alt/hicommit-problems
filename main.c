@@ -9,7 +9,6 @@ int main() {
   scanf("%d",&abs);
   if(gpa >= 8.0 && min >= 7.0)
   {
-    {
        if(abs > 3)
   {
     printf("FAIL_ATTENDANCE"); 
