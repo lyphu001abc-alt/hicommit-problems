@@ -12,11 +12,11 @@ int main() {
     {
        if(abs > 3)
   {
-    printf("FAIL_ATTENDANCE"); break ;
+    printf("FAIL_ATTENDANCE"); 
   }
   else if(min < 4.0)
   {
-    printf("FAIL_SUBJECT"); break ;
+    printf("FAIL_SUBJECT"); 
   }
     }
     printf("EXCELLENT");
@@ -26,17 +26,26 @@ int main() {
     {
        if(abs > 3)
   {
-    printf("FAIL_ATTENDANCE"); break ;
+    printf("FAIL_ATTENDANCE"); 
   }
   else if(min < 4.0)
   {
-    printf("FAIL_SUBJECT"); break ;
-  }
+    printf("FAIL_SUBJECT");
     }
     printf("GOOD");
   }
   else if(gpa >= 5.0 && min >= 4.0)
   {
+    {
+      if(abs > 3)
+  {
+    printf("FAIL_ATTENDANCE"); 
+  }
+  else if(min < 4.0)
+  {
+    printf("FAIL_SUBJECT");
+    }
+    }
     printf("PASS");
   }
   else
@@ -44,11 +53,11 @@ int main() {
     {
        if(abs > 3)
   {
-    printf("FAIL_ATTENDANCE"); break ;
+    printf("FAIL_ATTENDANCE"); 
   }
   else if(min < 4.0)
   {
-    printf("FAIL_SUBJECT"); break ;
+    printf("FAIL_SUBJECT"); 
   }
     }
     printf("FAIL");
